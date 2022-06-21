@@ -4,7 +4,7 @@
 """Define a class Square."""
 
 
-class square:
+class Square:
     """Represent a square."""
 
     def __init__(self, size):
@@ -21,7 +21,7 @@ class square:
 
     @size.setter
     def size(self, value):
-        if not isintance(value, int):
+        if not isinstance(value, int):
             raise TypeError("size must be >= 0")
         self.__size = value
 
