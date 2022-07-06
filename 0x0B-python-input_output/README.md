@@ -18,3 +18,4 @@ File	Prototype
 8-class_to_json.py	def class_to_json(obj)
 12-pascal_triangle.py	def pascal_triangle(n):
 100-append_after.py	def append_after(filename="", search_string="", new_string=""):
+0-read_file.py
